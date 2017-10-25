@@ -14,3 +14,4 @@
 !/tmp/.keep
 *.swp
 .byebug_history
+.idea
