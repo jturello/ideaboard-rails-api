@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe IdeasController, type: :controller do
+RSpec.describe Api::V1::IdeasController, type: :controller do
 
   describe "GET #index" do
     
