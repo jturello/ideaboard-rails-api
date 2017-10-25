@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :idea do
-    title "Idea #1 Title"
-    body "This is the body of idea #1"
+    title "Idea factory #1 - title"
+    body "Idea factory #1 - body"
   end
 end
