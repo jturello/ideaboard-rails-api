@@ -17,7 +17,7 @@ gem 'puma', '~> 3.7'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Rack CORS (Cross-Origin Resource Sharing) to make cross-origin AJAX calls possible
-# gem 'rack-cors'
+gem 'rack-cors', :require => 'rack/cors'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
